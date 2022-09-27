@@ -2,14 +2,6 @@
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
-
-<p align="center">
-  <kbd>
-<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
-  </kbd>
-</p>
-
-
 Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
 
 If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
@@ -66,7 +58,7 @@ git@2.17.1 or higher
 ```
 
 
-## How To Use 
+## How To Use
 
 From your command line, clone and run developerFolio:
 
@@ -97,7 +89,7 @@ Generate a GitHub personal access token following these [instructions](https://h
 
 1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
 
-Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
+Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data.
 
 ```bash
 - DeveloperFolio
@@ -240,7 +232,7 @@ You could also host directly with Netlify by linking your own repository.
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
-## Technologies Used 
+## Technologies Used
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
@@ -264,7 +256,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 - Add More Sections
 
-## Project Maintainers 
+## Project Maintainers
 
 <table>
   <tr>
@@ -275,7 +267,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
   </tr>
 </table>
 
-## Contributors 
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
