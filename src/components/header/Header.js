@@ -1,20 +1,13 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
-import "./Header.scss";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
-  workExperiences,
-  skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
-  achievementSection
+  achievementSection, blogSection, greeting, openSource, skillsSection, talkSection, workExperiences
 } from "../../portfolio";
+import "./Header.scss";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -34,7 +27,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -74,9 +67,9 @@ function Header() {
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            {/* <a>
               <ToggleSwitch />
-            </a>
+            </a> */}
           </li>
         </ul>
       </header>
